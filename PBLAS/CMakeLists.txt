@@ -1,5 +1,5 @@
 add_subdirectory(SRC)
-if(SCALAPACK_BUILD_TESTS AND BUILD_SINGLE)
+if(BUILD_TESTING AND SCALAPACK_BUILD_SINGLE)
   add_subdirectory(TESTING)
   add_subdirectory(TIMING)
 endif()
